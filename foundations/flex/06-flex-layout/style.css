@@ -24,3 +24,49 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* task changes */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.header ul, .footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+}
+
+.input {
+  padding: 16px;
+}
+
+button {
+  padding: 8px;
+}
+
+.header a, .footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
