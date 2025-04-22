@@ -67,3 +67,31 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* task changes */
+
+.modal { 
+  display: flex;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-right: 16px;;
+}
+
+.modal-confirmation div { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
